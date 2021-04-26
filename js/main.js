@@ -436,7 +436,7 @@ $("#replay").click(function() {
 function playerScore()
 {
    score += 1;
-   fetch('https://8080-black-cobra-ayyn3xjo.ws-eu03.gitpod.io/add');
+   fetch('https://cors-anywhere.herokuapp.com/https://8080-black-cobra-ayyn3xjo.ws-eu03.gitpod.io/add');
    //play score sound
    soundScore.stop();
    soundScore.play();
