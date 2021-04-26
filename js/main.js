@@ -435,7 +435,7 @@ $("#replay").click(function() {
 
 function playerScore()
 {
-   score += 1;
+   score += 10;
    //play score sound
    soundScore.stop();
    soundScore.play();
